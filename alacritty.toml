@@ -1,0 +1,25 @@
+[font]
+size = 15.0
+
+[font.normal]
+family = "0xProto Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "0xProto Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "0xProto Nerd Font Mono"
+style = "Italic"
+
+[terminal.shell]
+program = "/usr/local/bin/zellij"
+
+[window]
+decorations = "none"
+startup_mode = "Maximized"
+
+[general]
+import = ["~/.config/alacritty/themes/themes/tokyo-night.toml"]
+
