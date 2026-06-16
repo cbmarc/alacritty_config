@@ -23,3 +23,8 @@ startup_mode = "Maximized"
 [general]
 import = ["~/.config/alacritty/themes/themes/tokyo-night.toml"]
 
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"
